@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { arch } from "os";
+import React from "react";
+import "./App.css";
+import logo from "./logo.svg";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <p>Hello from {arch()} architecture</p>
       </header>
     </div>
   );
