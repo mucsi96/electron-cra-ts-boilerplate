@@ -1,4 +1,4 @@
-import { arch } from "os";
+import { platform } from "os";
 import React from "react";
 import "./App.css";
 import logo from "./logo.svg";
@@ -19,7 +19,7 @@ function App() {
         >
           Learn React
         </a>
-        <p>Hello from {arch()} architecture</p>
+        <p>Hello from {platform()} platform</p>
       </header>
     </div>
   );
